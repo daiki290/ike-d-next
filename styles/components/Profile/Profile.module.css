@@ -1,0 +1,19 @@
+.aboutme {
+    width: 60vw;
+}
+
+.aboutme .description {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+.aboutme {
+    width: 100vw;
+    padding: 8px;
+}
+}
